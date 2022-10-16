@@ -1,0 +1,135 @@
+@media (max-width: 1280px) {
+/*  reset
+-----------------------------------------*/
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+/*  section hero
+-----------------------------------------*/
+    .s-hero-content {
+        flex-direction: column;
+    }
+
+    .s-hero .text {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .s-hero .text p {
+        max-width: 100%;
+    }
+
+    .s-hero .text .btn-primary {
+        margin-bottom: 4rem;
+    }
+
+    .s-hero .meet {
+        justify-content: center;
+    }
+
+/*  section resources
+-----------------------------------------*/
+    .s-resources .cards-content {
+        flex-direction: column;
+    }
+
+    .s-resources .cards-content .card-featured {
+        max-width: 100%;
+        height: auto;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .s-resources .cards-content .card-featured .info {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+/*  section resources
+-----------------------------------------*/
+    .s-resources {
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+    }
+
+    .s-resources .top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .s-resources .top h2 {
+        margin-bottom: 2rem;
+    }
+
+    .s-resources .cards-content ul {
+        gap: 2.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+/*  header
+-----------------------------------------*/
+    .header .logo {
+        max-width: 14rem;
+    }
+
+    .header-content {
+        height: 8rem;
+        justify-content: center;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+/*  section hero
+-----------------------------------------*/
+    .s-hero {
+        margin-top: 8rem;
+        padding-top: 2.5rem;
+    }
+
+    .s-hero .text h1 {
+        font-size: 4.1rem;
+    }
+
+    .s-hero .image {
+        position: relative;
+        left: -9px;
+    }
+}
+
+@media (max-width: 480px) {
+/*  section resources
+-----------------------------------------*/
+    .s-resources {
+        padding-top: 6rem;
+    }
+
+    .s-resources .cards-content ul {
+        flex-direction: column;
+        padding-left: 0;
+        padding-top: 3rem;
+    }
+
+    .s-resources .cards-content ul li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .s-resources .cards-content .info {
+        max-width: 95%;
+    }
+}

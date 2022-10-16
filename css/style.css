@@ -1,0 +1,193 @@
+/*  header
+-----------------------------------------*/
+.header {
+    background-color: var(--purple);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-content {
+    height: 11.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu-items {
+    display: flex;
+}
+
+.navbar .menu-items li:nth-child(2) {
+    margin-left: 5.6rem;
+}
+
+.navbar .menu-items li a {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .menu-items li a span {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--white);
+    margin-left: 1.6rem;
+}
+
+/*  section hero
+-----------------------------------------*/
+.s-hero {
+    background-color: var(--purple);
+    margin-top: 11.9rem;
+    padding-top: 3.9rem;
+}
+
+.s-hero-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-hero .text {
+    width: 100%;
+    max-width: 55rem;
+    color: var(--white);
+}
+
+.s-hero .text h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 4.8rem;
+    line-height: 120%;
+    margin-bottom: 1.6rem;
+}
+
+.s-hero .text p {
+    font-size: 1.8rem;
+    line-height: 150%;
+    max-width: 48.8rem;
+    margin-bottom: 3.2rem;
+}
+
+.s-hero .text .btn-primary {
+    margin-bottom: 8.6rem;
+}
+
+.s-hero .text .btn-primary:hover {
+    background-color: #503387;    
+}
+
+.s-hero .text .meet {
+    display: flex;
+    align-items: center;
+}
+
+.s-hero .text .meet .icon {
+    width: 4.2rem;
+    height: 4.2rem;
+    background-color: rgba(123, 90, 186, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.6rem;
+}
+
+.s-hero .text .meet span {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-left: 1.6rem;
+}
+
+.s-hero .image img {
+    transform: translateY(3.7rem);
+}
+
+/*  section resource
+-----------------------------------------*/
+.s-resources {
+    padding-top: 14.9rem;
+    padding-bottom: 9.9rem;
+}
+
+.s-resources .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5.3rem;
+}
+
+.s-resources .top h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3.2rem;
+    line-height: 130%;
+    color: var(--grey-01);
+    max-width: 50.2rem;
+}
+
+.s-resources .top p {
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: var(--grey-02);
+}
+
+.s-resources .cards-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-resources .cards-content .card-featured {
+    width: 100%;
+    max-width: 28rem;
+    height: 32.3rem;
+    background-color: rgba(197, 190, 220, 0.1);
+    border-radius: 1.2rem;
+    padding-top: 4.1rem;
+    padding-left: 4.2rem;
+}
+
+.s-resources .cards-content .card-featured .icon {
+    background-color: var(--white);
+}
+
+.s-resources .cards-content .card-featured .info {
+    max-width: 20.4rem;
+}
+
+.s-resources .cards-content ul {
+    width: 100%;
+    max-width: 90.4rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4.1rem;
+    padding-left: 2rem;
+    padding-bottom: 6.5rem;
+    border-bottom: 3px solid rgba(95, 60, 161, 0.1);
+}
+
+.s-resources .cards-content .icon {
+    width: 6.4rem;
+    height: 6.4rem;
+    background-color: rgba(197, 190, 220, 0.1);
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.s-resources .cards-content .info {
+    max-width: 23.9rem;
+}
+
+.s-resources .cards-content .info h4 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: var(--purple);
+    margin-bottom: 2rem;
+}
+
+.s-resources .cards-content .info p {
+    font-size: 1.6rem;
+    line-height: 165%;
+    color: var(--grey-02);
+}
